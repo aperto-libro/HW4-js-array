@@ -66,6 +66,16 @@ console.log(arr1);
 
 console.log('------------------------------------------------- # 11');
 
+function fromStrToArr(string, separator) {
+  return string.split(separator);
+}
+
+let str1 = 'Lorem--ipsum--dolor--sit--amet';
+let str2 = 'Ударим крепким сном по мукам совести!';
+
+console.log(fromStrToArr(str1, '--'));
+console.log(fromStrToArr(str2, ' '));
+
 console.log('------------------------------------------------- # 12');
 
 console.log('------------------------------------------------- # 13');
