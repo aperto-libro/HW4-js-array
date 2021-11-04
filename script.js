@@ -26,6 +26,16 @@ console.log(arr.join(' '));
 
 console.log('------------- # 8');
 
+let users = [
+  { id: 1, name: 'Vic', age: 21 },
+  { id: 2, name: 'Petya', age: 30 },
+  { id: 3, name: 'Jon', age: 5 },
+];
+
+let result = users.filter((item) => item.age < 20);
+
+console.log(result);
+
 console.log('------------- # 9');
 
 console.log('------------- # 10');
