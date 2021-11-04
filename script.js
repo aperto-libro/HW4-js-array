@@ -1,20 +1,23 @@
 console.log('------------- # 5');
 
-function ask(question, yes, no) {
-  if (confirm(question)) yes();
-  else no();
-}
-ask(
-  'Вы согласны?',
-  () => {
-    console.log('Вы согласились.');
-  }, // нужно обновить данное место
-  () => {
-    console.log('Вы отменили выполнение.');
-  } // нужно обновить данное место
-);
+// function ask(question, yes, no) {
+//   if (confirm(question)) yes();
+//   else no();
+// }
+// ask(
+//   'Вы согласны?',
+//   () => {
+//     console.log('Вы согласились.');
+//   }, // нужно обновить данное место
+//   () => {
+//     console.log('Вы отменили выполнение.');
+//   } // нужно обновить данное место
+// );
 
 console.log('------------- # 6');
+
+let str = 'my-short-string';
+console.log(str.split('-'));
 
 console.log('------------- # 7');
 
