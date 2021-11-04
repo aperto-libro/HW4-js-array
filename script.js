@@ -21,6 +21,9 @@ console.log(str.split('-'));
 
 console.log('------------- # 7');
 
+let arr = ['JavaScript', 2015];
+console.log(arr.join(' '));
+
 console.log('------------- # 8');
 
 console.log('------------- # 9');
