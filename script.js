@@ -78,4 +78,17 @@ console.log(fromStrToArr(str2, ' '));
 
 console.log('------------------------------------------------- # 12');
 
+let arr2 = [5, 3, 8, 1];
+
+function slArray(arr, startIndex, endIndex) {
+  let result = arr.slice(startIndex, endIndex);
+
+  return result;
+}
+
+let range = slArray(arr2, 1, 4);
+
+console.log(range); // 3, 8, 1
+console.log(arr2); // 5,3,8,1 (без изменений)
+
 console.log('------------------------------------------------- # 13');
